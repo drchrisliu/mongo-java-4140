@@ -18,7 +18,7 @@ public class Update {
         MongoClient mongoClient = MongoClients.create("mongodb://csid:dbpassword@db.cs.dal.ca:27017/?authSource=csid");
 
         // Connect to the database
-        MongoDatabase database = mongoClient.getDatabase("csid");
+        MongoDatabase database = mongoClient.getDatabase("local");
 
         System.out.println("Connected to the database successfully");
 
